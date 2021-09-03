@@ -6,6 +6,7 @@ import { Colvert } from './Colvert';
 class App {
 
     main() {
+        console.log("ok")
 
         const canard: Colvert = new Colvert();
         const dindon: DindonSauvage = new DindonSauvage();
