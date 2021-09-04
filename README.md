@@ -7,7 +7,7 @@ incompatibles.
 # Getting Started
 
 ```bash
-$ git clone https://github.com/hassanrobleh/Design_pattern-Facade.git
+$ git clone https://github.com/hassanrobleh/Design_pattern-Adapter.git
 $ cd Design_pattern-Abstract-Factory
 $ npm install
 $ npm run test
