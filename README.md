@@ -6,4 +6,10 @@ incompatibles.
 
 # Getting Started
 
+```bash
+$ git clone https://github.com/hassanrobleh/Design_pattern-Facade.git
+$ cd Design_pattern-Abstract-Factory
+$ npm install
+$ npm run test
+
 
