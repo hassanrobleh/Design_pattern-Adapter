@@ -8,7 +8,7 @@ incompatibles.
 
 ```bash
 $ git clone https://github.com/hassanrobleh/Design_pattern-Adapter.git
-$ cd Design_pattern-Abstract-Factory
+$ cd Design_pattern-Adapter
 $ npm install
 $ npm run test
 
