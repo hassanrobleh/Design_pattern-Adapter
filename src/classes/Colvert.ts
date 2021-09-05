@@ -3,10 +3,10 @@ import { Canard } from './../interfaces/Canard';
 export class Colvert implements Canard {
 
     cancaner() {
-        console.log("coincoin");
+        return "coincoin";
     }
 
     voler() {
-        console.log("Je vole");
+        return "Je vole";
     }
 }

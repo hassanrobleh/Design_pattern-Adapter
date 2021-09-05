@@ -1,5 +1,5 @@
 export interface Canard {
 
-    cancaner(): void;
-    voler(): void;
+    cancaner(): any;
+    voler(): any;
 }

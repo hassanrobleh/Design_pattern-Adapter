@@ -3,11 +3,11 @@ import { Dindon } from './../interfaces/Dindon';
 export class DindonSauvage implements Dindon {
 
     glouglouter() {
-        console.log("Glouglou");
+        return "Glouglou";
     }
 
     voler() {
-        console.log("Je ne vole pas loin");
+        return "Je ne vole pas loin";
     }
 
 }

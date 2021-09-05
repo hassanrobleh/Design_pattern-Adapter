@@ -10,7 +10,7 @@ export class AdaptateurDindon implements Canard {
     }
 
     cancaner() {
-        this.dindon.glouglouter();
+        return this.dindon.glouglouter();
     }
 
     voler() {
