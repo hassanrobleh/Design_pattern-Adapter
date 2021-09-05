@@ -14,8 +14,10 @@ export class AdaptateurDindon implements Canard {
     }
 
     voler() {
+        let result = "";
         for (let i = 0; i < 5; i++) {
-            this.dindon.voler();
+            result += this.dindon.voler();
         }
+        return result;
     }
 }

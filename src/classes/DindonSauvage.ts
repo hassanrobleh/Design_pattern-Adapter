@@ -7,7 +7,7 @@ export class DindonSauvage implements Dindon {
     }
 
     voler() {
-        return "Je ne vole pas loin";
+        return "Je ne vole pas loin ";
     }
 
 }

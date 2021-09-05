@@ -1,5 +1,5 @@
 export interface Dindon {
 
-    glouglouter(): any;
-    voler(): any;
+    glouglouter(): string;
+    voler(): string;
 }

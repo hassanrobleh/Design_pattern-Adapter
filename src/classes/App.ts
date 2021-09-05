@@ -4,35 +4,30 @@ import { DindonSauvage } from './DindonSauvage';
 import { Colvert } from './Colvert';
 
 export class App {
-
-    main() {
-
-        const canard: Colvert = new Colvert();
-        const dindon: DindonSauvage = new DindonSauvage();
-        const adaptateurDindon = new AdaptateurDindon(dindon);
-
-        // console.log("Dindon dit ...");
-        // dindon.glouglouter();
-        return dindon.voler();
-
-        // console.log("\n canard dit ...");
-        // App.testerCanard(canard);
-        // canard.cancaner();
-        // canard.voler();
-
-        // console.log("\n AdaptateurDindon dit...");
-        // App.testerCanard(adaptateurDindon);
-        // adaptateurDindon.cancaner();
-        // adaptateurDindon.voler();
+    static testerCanard(canard: Canard) {
+        canard.cancaner();
+        canard.voler();
     }
 
-    // static testerCanard(canard: Canard) {
+    dindon() {
+        const dindon: DindonSauvage = new DindonSauvage();
 
-    //     canard.cancaner();
-    //     canard.voler();
-    // }
+        return dindon.voler();
+    }
+
+    canard() {
+        const canard: Colvert = new Colvert();
+        App.testerCanard(canard);
+        
+        return canard.voler();
+    }
+
+    adapterDindon() {
+        const dindon: DindonSauvage = new DindonSauvage();
+        const adaptateurDindon = new AdaptateurDindon(dindon);
+        App.testerCanard(adaptateurDindon);
+
+        return adaptateurDindon.voler();
+    }
     
 }
-
-// const app = new App();
-// app.main();
